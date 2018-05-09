@@ -21,6 +21,7 @@ export default class ExpenseEntries extends React.Component {
     }
 
     handleDescriptionInput(event) {
+        event.preventDefault();
         //dispatch was provided by connect()
         const { dispatch } = this.props;
         const { value } = event.target;
@@ -28,6 +29,7 @@ export default class ExpenseEntries extends React.Component {
     }
 
     handleAmountInput(event) {
+        event.preventDefault();
         const { dispatch } = this.props;
         const { value } = event.target;
         dispatch(updateExpenseAmount(value));
