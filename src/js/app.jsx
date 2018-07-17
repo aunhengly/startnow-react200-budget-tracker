@@ -16,7 +16,7 @@ export default class App extends React.Component {
           </div>
           <div className='col-12 col-md-6 mb-4'>
             <ExpenseEntries />
-        </div>
+          </div>
         </div>
         <div className='row justify-content-center'>
           <div className='col-12 col-md-6'>
