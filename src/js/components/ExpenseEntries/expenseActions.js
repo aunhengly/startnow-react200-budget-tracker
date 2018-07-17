@@ -8,7 +8,7 @@ export function updateExpenseDescription(description) {
 export function updateExpenseAmount(amount) {
     return {
         type: 'UPDATE_EXPENSE_AMOUNT',
-        payload: { amount}
+        payload: { amount }
     };
 }
 
